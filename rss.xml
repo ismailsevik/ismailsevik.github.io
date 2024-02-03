@@ -3,6 +3,14 @@
 <title>İsmail Şevik - RSS</title>
 <link>http://blog.ismailsevik.com/</link>
 <description>Statik kişisel blog.</description>
+  <managingEditor>ismail@ismailsevik.com (İsmail Şevik)</managingEditor>
+        <webMaster>ismail@ismailsevik.com (İsmail Şevik)</webMaster>
+        
+        <image>
+            <url>https://blog.ismailsevik.com/favicon.ico</url>
+            <title>İsmail Şevik - RSS</title>
+            <link>https://blog.ismailsevik.com</link>
+        </image>
 <item>
 <title>Selam</title>
 <pubDate>Fri, 02 Feb 2024 00:10:00 GMT</pubDate>
