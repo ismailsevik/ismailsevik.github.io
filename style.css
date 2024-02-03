@@ -1,0 +1,265 @@
+body {
+	color: #555;
+	font-size: 15px;
+	line-height: 160%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+a {
+	text-decoration: underline;
+	color: #2497d6;
+}
+strong {
+	color: #222;
+}
+small {
+	line-height: 150%;
+}
+.lead {
+	line-height: 150%;
+	font-weight: normal;
+	font-size: 1.25em;
+}
+.title {
+	font-weight: bold;
+	color: #000;
+	position: relative;
+}
+
+/*
+Header
+*/
+.header-outer {
+	background: #111 url(../images/cover.jpg);
+	background-position: bottom center;
+	background-size: 100% auto;
+}
+.header {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.header .title {
+	color: #fff;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 5em;
+}
+h4 {
+	font-size: 1.65em;
+	line-height: 140%;
+	margin-bottom: 15px !important;
+}
+
+/*
+Main Content
+*/
+.primarycontent-outer {
+	margin: 80px 0;
+}
+.primarycontent {
+	position: relative;
+}
+.primarycontent .sidebar-outer {
+	position: sticky;
+	top: 2rem;
+	bottom: 0;
+	background: #f9f9f9;
+	border-radius: 3px;
+	font-size: .87em;
+	line-height: 140%;
+}
+
+/*
+sidebar-outer
+*/
+.sidebar-outer li.has-child {
+	list-style: decimal;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(0,0,0, 0.1);
+	color: #111;
+}
+.sidebar-outer li .child {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 10px;
+	font-weight: normal;
+}
+.sidebar-outer li .child li {
+	margin-bottom: 10px;
+}
+.sidebar-outer li.has-child > span {
+	font-weight: bold;
+	color: #111;
+}
+.sidebar-outer a {
+	color: #777;
+	text-decoration: none;
+}
+.sidebar-outer li:last-child {
+	margin-bottom: 0 !important;
+}
+.sidebar-outer a:hover {
+	color: #111;
+	border-bottom: 1px solid #111;
+}
+
+/*
+Post
+*/
+#introOuter p {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.post {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 80px;
+	position: relative;
+}
+.post:after {
+	display: block;
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -10px;
+    width: 1px;
+    height: 30px;
+    background: #ddd;
+    box-shadow: 0 0 0 5px #fff;
+    transform: rotate(45deg);
+}
+.post:last-child {
+	margin-bottom: 0;
+}
+.post {
+	margin-bottom: 80px;
+}
+.post blockquote,
+.post dl,
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6,
+.post ol,
+.post p,
+.post pre,
+.post ul,
+.post hr,
+.post figure,
+.post video {
+	margin-bottom: 1.5rem;
+}
+.post .post-header span {
+	position: absolute;
+    top: 7px;
+    left: -45px;
+    font-size: 14px;
+    background: #35bcad;
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 100px;
+    text-align: center;
+    color: #fff;
+    line-height: 26px;
+}
+.post code {
+	padding: 0 5px 2px;
+    line-height: 1;
+    font-weight: 400!important;
+    background: #d0ecfb;
+    border-radius: 4px;
+}
+.post pre {
+	background: #f2f2f2;
+	color: #555;
+	padding: 20px;
+	border-radius: 3px;
+}
+.post pre span {
+	color: #2497d6;
+	font-weight: bold;
+	background: none !important;
+}
+.post video {
+	border: 1px solid rgba(0,0,0, 0.1);
+	cursor: pointer;
+}
+	.post video:focus,
+	.post video:active {
+		outline: none;
+	}
+.post figure cite {
+	font-size: .75em;
+	line-height: 130%;
+	font-style: normal;
+	display: block;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.post figure {
+	position: relative;
+}
+.post figure.has-outline:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 1px solid rgba(0,0,0, 0.1);
+}
+.post ul,
+.post ol {
+	padding-left: 20px;
+}
+.post table td {
+	border-bottom: 1px solid #ddd;
+	vertical-align: top;
+	padding: 15px;
+	padding-right: 30px;
+}
+.post table th {
+	padding: 5px 15px;
+	color: #111;
+}
+	.post table td:first-child,
+	.post table th:first-child {
+		padding-left: 0;
+	}
+	.post table td:last-child,
+	.post table th:last-child {
+		padding-right: 0;
+	}
+.post .highlight {
+	background: #F0E68C;
+}
+.post .text-underline {
+	border-bottom: 1px solid #ccc;
+}
+
+/*
+Responsive
+*/
+@media (min-width: 1200px) {
+	.container {
+	    max-width: 960px;
+	}
+}
+@media (min-width: 960px) {
+	.header {
+		padding-right: 300px;
+	}
+}
+@media (min-width: 720px) {
+	body {
+		font-size: 16px;
+	}
+}
