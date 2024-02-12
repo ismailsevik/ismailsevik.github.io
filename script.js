@@ -43,7 +43,7 @@ const generateRSS = (dirPath) => {
 
   // rss.xml dosyasını oluşturun.
 
-  fs.writeFileSync('./rss.xml', rssXml);
+  fs.writeFileSync('/rss.xml', rssXml);
 };
 
-generateRSS('./'); // Dizin yolunu ayarlayın.
+generateRSS('/'); // Dizin yolunu ayarlayın.
