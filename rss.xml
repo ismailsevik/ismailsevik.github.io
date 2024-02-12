@@ -1,7 +1,7 @@
 <rss version="2.0">
 <channel>
 <title>İsmail Şevik - RSS</title>
-<link>https://infrolanding.com</link>
+<link>https://ismailsevik.github.io</link>
 <description>Statik kişisel blog.</description>
   <managingEditor>ismail@ismailsevik.com (İsmail Şevik)</managingEditor>
         <webMaster>ismail@ismailsevik.com (İsmail Şevik)</webMaster>
@@ -12,10 +12,10 @@
             <link>https://ismailsevik.github.io</link>
         </image>
 <item>
-<title>Selam</title>
-<pubDate>Fri, 02 Feb 2024 00:10:00 GMT</pubDate>
-<link>/selam.html</link>
-<guid>/selam.html</guid>
+<title>Merhaba</title>
+<pubDate>Fri, 12 Feb 2024 12:50:00 GMT</pubDate>
+<link>/merhaba</link>
+<guid>/merhaba</guid>
 <description>İnternet dünyasına fazla yük bindirmeyen yeni websitem.</description>
 </item>
   </channel>
