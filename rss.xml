@@ -1,6 +1,6 @@
 <rss version="2.0">
 <channel>
-<title>İsmail Şevik - RSS</title>
+<title>İsmail Şevik Github</title>
 <link>https://ismailsevik.github.io</link>
 <description>Statik kişisel blog.</description>
   <managingEditor>ismail@ismailsevik.com (İsmail Şevik)</managingEditor>
@@ -16,6 +16,14 @@
 <pubDate>Fri, 12 Feb 2024 12:50:00 GMT</pubDate>
 <link>/merhaba</link>
 <guid>/merhaba</guid>
+<description>İnternet dünyasına fazla yük bindirmeyen yeni websitem.</description>
+</item>
+  
+  <item>
+<title>Twitter</title>
+<pubDate>Fri, 12 Feb 2024 12:50:00 GMT</pubDate>
+<link>https://twitter.com/ismailsevik_</link>
+<guid>https://twitter.com/ismailsevik_</guid>
 <description>İnternet dünyasına fazla yük bindirmeyen yeni websitem.</description>
 </item>
   </channel>
