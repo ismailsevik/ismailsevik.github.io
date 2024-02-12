@@ -11,9 +11,9 @@ const generateRSS = (dirPath) => {
 
     // HTML içeriğini ayrıştırın ve RSS öğelerini oluşturun.
 
-    const title = ...; // Sayfa başlığını ayıklayın.
-    const description = ...; // Sayfa açıklamasını ayıklayın.
-    const link = ...; // Sayfa bağlantısını ayıklayın.
+    const title = ... ; // Sayfa başlığını ayıklayın.
+    const description = ... ; // Sayfa açıklamasını ayıklayın.
+    const link = ... ; // Sayfa bağlantısını ayıklayın.
 
     rssItems.push({
       title,
@@ -27,9 +27,9 @@ const generateRSS = (dirPath) => {
   const rssXml = `
     <rss version="2.0">
       <channel>
-        <title>Siteniz Adı</title>
-        <description>Siteniz Açıklaması</description>
-        <link>https://www.siteniz.com</link>
+        <title>İsmail Şevik</title>
+        <description>Kod ve kelimelerin yazarı. </description>
+        <link>https://ismailsevik.github.io</link>
         <item>
           ${rssItems.map((item) => `
             <title>${item.title}</title>
@@ -46,4 +46,4 @@ const generateRSS = (dirPath) => {
   fs.writeFileSync('./rss.xml', rssXml);
 };
 
-generateRSS('./public'); // Dizin yolunu ayarlayın.
+generateRSS('./'); // Dizin yolunu ayarlayın.
